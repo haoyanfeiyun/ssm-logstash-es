@@ -24,7 +24,7 @@ public class TestController {
     @RequestMapping("stringTest")
     @ResponseBody
     public String returnStr() {
-        logger.info("ssm-logstash-es test");
+        logger.info("ssm-logstash test");
 
         return "hello,即使是中文也可以";
     }
